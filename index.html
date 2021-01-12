@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="layui/css/layui.css"/>
+    	<link rel="stylesheet" href="css/mine.css" type="text/css"/>
+		<style>
+			body {
+				cursor: url(img/cursor_1.png), default;
+			}
+			a:hover{cursor:url(img/cursor_2.png), pointer;}
+		</style>		
+	</head>
+	<body>
+		<!--导航开始-->
+		<div class="layui-bg-green">
+			<div class="top-center-menu">
+      				<ul class="layui-nav layui-bg-green">
+  						<li class="menu-title"><b>LittleWitch</b></li>
+  						<li class="layui-nav-item layui-this"><a href="index.html">首页</a></li>
+  						<li class="layui-nav-item"><a href="picture.html">图片</a></li>
+  						<li class="layui-nav-item">
+    					<a href="javascript:;">语录</a>
+    						<dl class="layui-nav-child">
+      						<dd><a href="text.html">经典</a></dd>
+      						<dd><a href="text1.html">哲理</a></dd>
+      						<dd><a href="text2.html">美好</a></dd>
+    						</dl>
+ 					 	</li>
+  						<li class="layui-nav-item"><a href="community.html">社区</a></li>
+  						<li style="float: right;margin-top:3px;">
+  							<audio src="music/1945.mp3" controls="controls">
+								Your browser does not support the audio element.
+							</audio>
+  						</li>
+					</ul>
+			</div>
+		</div>
+		<!--导航结束-->
+		<!--中部展示区开始-->
+		<div class="center-box">
+			<div class="center-left-box">
+			<!--图片轮播开始-->
+			<div class="layui-carousel" id="test3" lay-filter="test4">
+			  <div carousel-item="">
+			    <div><img src="img/lb1.jpg" width="778px"/></div>
+			    <div><img src="img/lb0.jpg" width="778px"/></div>
+			    <div><img src="img/lb2.jpg" width="778px"/></div>
+			    <div><img src="img/lb3.jpg" width="778px"/></div>
+			    <div><img src="img/lb4.jpg" width="778px"/></div>
+			  </div>
+			</div> 
+			<!--图片轮播结束-->				
+			</div>
+			<div class="center-right-box">
+				<p>本周热点</p>
+				<hr />
+				<div class="center-box-table">
+					<table>
+						<tr>
+							<td><button type="button" class="layui-btn layui-btn-radius">情侣头像</button></td>
+							<td><button type="button" class="layui-btn layui-btn-radius">卡通</button></td>
+						</tr>
+						<tr>
+							<td><button type="button" class="layui-btn layui-btn-radius">动漫人物经典语录</button></td>
+							<td><button type="button" class="layui-btn layui-btn-radius">萌</button></td>
+						</tr>
+						<tr>
+							<td><button type="button" class="layui-btn layui-btn-radius">熊本熊</button></td>
+							<td><button type="button" class="layui-btn layui-btn-radius">催泪台词</button></td>
+						</tr>
+					</table>
+				</div>
+				<hr />
+				<p>本站精选</p>
+				<hr />
+				<div class="center-box-table">
+					<table>
+						<tr>
+							<td><button type="button" class="layui-btn layui-btn-danger layui-btn-radius">宫崎骏电影经典语录</button></td>
+						</tr>
+						<tr>
+							<td><button type="button" class="layui-btn layui-btn-danger layui-btn-radius">千与千寻 千寻和白龙经典对话</button></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!--中部展示区结束-->
+		<!--中部导航区-->
+		<nav class="nav">
+			<div class="kuai">
+				<div class="kuai-one"></div>
+				<div class="kuai-two"></div>
+				<div class="kuai-three"></div>
+			</div>
+			<ul>
+				<li class="first"><a href="#" class="one"><font>哲理</font></a></li>
+				<li><a href="#" class="two"><font>经典</font></a></li>
+				<li><a href="#" class="three"><font>美好</font></a></li>
+				<li><a href="#" class="four"><font>成长</font></a></li>
+				<li><a href="#" class="five"><font>励志</font></a></li>
+				<li class="final"><a href="#" class="six"><font>温暖</font></a></li>
+			</ul>
+		</nav>
+		<!--中部导航区结束-->
+		<!--中部语录区开始-->
+		<div class="wisdom">
+			<div class="wisdom-left" id="photochange">
+				<img src="img/m5.jpg" width="350px" id="onepic">
+				<img src="img/zal.jpg" width="350px" id="twopic">
+				<img src="img/hlkl.jpg" width="350px" id="threepic">
+				<img src="img/crqt.jpg" width="350px" id="fourpic">
+			</div>
+			<div class="wisdom-right" >
+				<blockquote class="layui-elem-quote " id="hoverline1">
+				  我们虽然没有在写给对方的信中发泄对这些日常生活的不满与牢骚，但是知道在这个世界之中有另外一个人能够理解自己，使我们都变得坚强起来。
+				 <br>——秒速5厘米
+				</blockquote>
+				<blockquote class="layui-elem-quote layui-quote-nm" id="hoverline2">
+				 于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…
+				  <br>——张爱玲
+				</blockquote>
+				<blockquote class="layui-elem-quote " id="hoverline3">
+				  Life is either a daring adventure or nothing.
+				  <br>——Helen Keller
+				</blockquote>
+				<blockquote class="layui-elem-quote layui-quote-nm" id="hoverline4">
+				  我到现在都想不起自己的名字。可是真是不可思议，我居然还记得你的名字。
+				  <br>——侧耳倾听 
+				</blockquote>
+			</div>
+		</div>
+		<!--中部语录区结束-->
+		
+		<!--关于本站区开始-->
+		<div class="about-box">
+			<fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
+			  <legend>关于本站</legend>
+			</fieldset>
+			<div style="background-color: #009688;height: 400px;width: 1100px;">
+				<div class="about-left-box"><img src="img/tx.jpg" width="250px" style="margin-top: 25px;"/></div>
+				<div class="about-right-box">
+					<br />
+					<p>站长介绍：</p>
+					<p>出生于一九九九年，在湖北的一个小镇上出生，长大。</p>
+					<p>喜欢一切美好的东西。</p>
+					<br />
+					<p>本站主题：</p>
+					<p>个人的分享社区，这里面收集了本人喜欢的一些图片和语录。</p>
+					<p>本站插入的音乐为1945，是电影海角七号中的配乐。</p>
+				</div>
+			</div>
+		</div>
+		<!--关于本站区结束-->
+		<!--底部版权区开始-->
+		<div class="down-box">
+			Copyright 2020 ZhouDan All rights Reserved.
+		</div>
+		<!--底部版权区结束-->
+		<!--返回顶部开始-->
+		<div class="returntop">
+			<a href=""><img src="img/top.png"/></a>
+		</div>
+		<!--返回顶部结束-->
+		<script src="layui/layui.js"></script>
+		<script>
+		var hoverline1=document.getElementById('hoverline1');
+		var hoverline2=document.getElementById('hoverline2');
+		var hoverline3=document.getElementById('hoverline3');
+		var hoverline4=document.getElementById('hoverline4');
+		var photochange=document.getElementById('photochange');
+		var onepic=document.getElementById("onepic");
+		var twopic=document.getElementById("twopic");
+		var threepic=document.getElementById("threepic");
+		var fourpic=document.getElementById("fourpic");
+		onepic.style.display='none';
+		twopic.style.display='none';
+		threepic.style.display='none';
+		fourpic.style.display='none';
+		hoverline1.onmouseover=function(){
+			onepic.style.display='block';
+		};
+		hoverline1.onmouseleave=function(){
+			onepic.style.display='none';
+		}
+		hoverline2.onmouseover=function(){
+			twopic.style.display='block';
+		};
+		hoverline3.onmouseover=function(){
+			threepic.style.display='block';
+		};
+		hoverline4.onmouseover=function(){
+			fourpic.style.display='block';
+		};
+		hoverline2.onmouseleave=function(){
+			twopic.style.display='none';
+		}
+		hoverline3.onmouseleave=function(){
+			threepic.style.display='none';
+		}
+		hoverline4.onmouseleave=function(){
+			fourpic.style.display='none';
+		}
+		layui.use('element', function(){
+		  var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+		  
+		  //监听导航点击
+		  element.on('nav(demo)', function(elem){
+		    //console.log(elem)
+		    layer.msg(elem.text());
+		  });
+		});
+		</script>
+		<script>
+		layui.use(['carousel', 'form'], function(){
+		  var carousel = layui.carousel
+		  ,form = layui.form;
+		  //设定各种参数
+		  var ins3 = carousel.render({
+		    elem: '#test3'
+		    ,width: '778px'
+		    ,height: '440px'
+		    ,interval: 4000
+		  });
+		  //事件
+		  //监听开关
+		  form.on('switch(autoplay)', function(){
+		    ins3.reload({
+		      autoplay: this.checked
+		    });
+		  });
+		});
+		</script>
+	</body>
+</html>

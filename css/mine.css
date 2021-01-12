@@ -1,0 +1,323 @@
+body {
+cursor: url(img/cursor_1.png), default;
+}
+a:hover{cursor:url(img/cursor_2.png), pointer;}
+.menu-title{float:left;width: 100px;font:35px "microsoft yahei";}
+.top-center-menu{margin: 0px auto;width:1140px;}
+.center-box{margin:20px auto;width:1100px;overflow: hidden;}
+.center-left-box{width:780px;float: left;height: 440px;}
+.center-right-box{width: 300px;height: 440px;float: right;border:1px solid #e0e0e0;}
+.center-box p{font:20px "微软雅黑";margin: 5px 10px;color: #3F3F3F;}
+.nav{
+	margin:20px auto;width:1100px;height: 50px;
+}
+.nav ul{
+	margin-left: 14px;
+	float: left;
+}
+.nav ul li{
+	float: left;
+	transition: all 0.5s;
+}
+.nav ul li a{
+	display: block;
+	width: 160px;
+	text-align: center;
+	
+	height: 50px;
+	line-height: 50px;
+	transform: skewX(-30deg);
+	-webkit-transform: skewX(-30deg);
+	margin: 1px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	transition: all 0.5s;
+	
+}
+.nav ul li:hover{
+	transform: translate(5px,-10px);
+	
+}
+
+.one,.three,.five{
+	background-color: #009E94;
+	color: white;
+}
+.two,.four,.six{
+	background-color:#DCDCDC;
+}
+.nav ul li a font{
+	display: inline-block;
+	transform: skewX(30deg);
+	-webkit-transform: skewX(30deg);
+}
+.final{
+	position: relative;
+	width: 160px;
+	height: 50px;
+	top:1px;
+	left: 15px;
+	background-color:#DCDCDC;
+}
+.final a{
+
+	position: absolute;
+	left: -15px;
+	top:-1px;
+}
+.first{
+	position: relative;
+	width: 160px;
+	height: 50px;
+	top:1px;
+	
+	right: 15px;
+	background-color: #009E94 ;
+}
+.first a{
+
+	position: absolute;
+	right: -15px;
+	top:-1px;
+}
+.center-box-table
+{width: 300px;margin: 10px auto;}
+.center-box-table td
+{padding: 10px 10px;}
+.about-box
+{margin: 0px auto;width:1100px;}
+.about-left-box
+{background:white;float: left;width:300px;height:300px;margin-top:50px;margin-left:50px;box-shadow: 2px 2px 5px gray;}
+.about-left-box img
+{margin: 15px 25px;}
+.about-right-box
+{margin-top:200px;float: right;height: 150px;width:700px;background-color: #FFB800;margin-right:50px;box-shadow: 2px 2px 5px gray;}
+.about-right-box p
+{margin-left: 20px;font:15px "楷体";}
+.kuai{
+	margin:1px;
+	width: 90px;
+	height: 50px;
+	float: left;
+	background-color: beige;
+}
+.kuai div{
+	float: left;
+}
+.kuai-one{
+	width: 30px;
+	height: 50px;
+	background-color: #DCDCDC;
+	animation:tcolor 2s infinite;
+	animation-delay: 100ms;
+}
+.kuai-two{
+	background-color: #DCDCDC;
+	width: 30px;
+	height: 50px;
+	animation:tcolor 2s infinite;
+	animation-delay: 300ms;
+}
+.kuai-three{
+	background-color: #DCDCDC;
+	width: 30px;
+	height: 50px;
+	animation:tcolor 2s infinite;
+	animation-delay: 500ms;
+}
+@keyframes tcolor{
+	from{background-color: #DCDCDC;}
+	to{background-color:  #009E94;}
+}
+.menu-title{float:left;width: 100px;font:35px "microsoft yahei";}
+.top-center-menu{margin: 0px auto;width:1140px;}
+.banner-box{margin:0px auto;width:1100px;}
+.card-box{margin:0px auto;width:1100px;height:550px}
+.show-box{width:1100px;margin: 0 auto;height:550px;background-color:#FFFFFF ;}
+.show-box p{font:30px "微软雅黑"}
+.show-box p font{font:16px "楷体"}
+.show-img-box{width:1100px;height:450px;margin: 0px auto;}
+.show-img-up{width:1100px;height:210px;}
+.show-img-down{width:1100px;height: 210px;margin-top: 30px;}
+.show-img-in{height: 210px;width: 210px;float: left;margin-left:65px;box-shadow: 2px 2px 5px gray;}
+.show-img-left{height:230px;width:230px;float: left;box-shadow: 2px 2px 5px gray;}
+.show-img-box img{width:230px;height:230px;}
+.down-box{width: 100%;height:60px;margin-top:50px;background-color:#009688;color: white;text-align: center;font-size:large;line-height: 60px;}
+.down-box{width: 100%;height:60px;margin-top:50px;background-color:#009688;color: white;text-align: center;font-size:large;line-height: 60px;}
+.ih-item.square.effect6 {
+    overflow: hidden;
+}
+
+.ih-item.square.effect6.colored .info {
+    background: #1a4a72;
+    background: rgba(26, 74, 114, 0.6);
+}
+
+.ih-item.square.effect6.colored .info h3 {
+    background: rgba(12, 34, 52, 0.6);
+}
+
+.ih-item.square.effect6 .img {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.ih-item.square.effect6 .info {
+    background: #333333;
+    background: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.ih-item.square.effect6 .info h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    background: #111111;
+    margin: 30px 0 0 0;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.ih-item.square.effect6 .info p {
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #bbb;
+    padding: 20px 20px 20px;
+    text-align: center;
+    -webkit-transition: all 0.35s 0.1s linear;
+    -moz-transition: all 0.35s 0.1s linear;
+    transition: all 0.35s 0.1s linear;
+}
+
+.ih-item.square.effect6 a:hover .img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.ih-item.square.effect6 a:hover .info {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ih-item.square.effect6.top_to_bottom .info h3 {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.ih-item.square.effect6.top_to_bottom .info p {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.ih-item.square.effect6.top_to_bottom a:hover .info h3,
+.ih-item.square.effect6.top_to_bottom a:hover .info p {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.ih-item.square.effect6.bottom_to_top .info h3 {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.ih-item.square.effect6.bottom_to_top .info p {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.ih-item.square.effect6.bottom_to_top a:hover .info h3,
+.ih-item.square.effect6.bottom_to_top a:hover .info p {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.wisdom{
+	height: 350px;
+	width: 1100px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.wisdom-left{
+	height: 350px;
+	width: 350px;
+	margin: 0px;
+	float: left;
+	background-image: url(../img/IMG_1566.JPG);
+	background-size: 340px;
+}
+
+.wisdom-right{
+	float: left;
+	height: 350px;
+	width: 740px;
+	margin-left: 10px;
+	
+}
+.wisdom-right blockquote{
+	transition:all 0.5s;
+}
+.wisdom-right blockquote:hover{
+	background-color:#DCDCDC;
+}
+.wisdom-left{
+	position: relative;
+}
+.wisdom-left img{
+	position: absolute;
+}
+.returntop{
+	width: 120px;
+	height: 120px;
+	position: fixed;
+	right: 100px;
+	bottom:50px;
+	animation:returntop 1s infinite ease alternate;
+	transition: all 0.5s;
+}
+.returntop a{
+	display: block;
+}
+.returntop:hover{
+	bottom: 70px;
+}
+.returntop a img{
+	width: 120px;
+}
+@keyframes returntop{
+	from{transform: translateY(20px);}
+	to{transform: translateY(0px);}
+}
